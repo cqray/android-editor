@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/__re_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    tools:ignore="LabelFor">
+
+    <com.flask.colorpicker.ColorPickerView
+        android:id="@+id/__re_color_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:density="10"
+        app:lightnessSlider="true"
+        app:lightnessSliderView="@id/__re_slider"
+        app:wheelType="FLOWER" />
+
+    <com.flask.colorpicker.slider.LightnessSlider
+        android:id="@+id/__re_slider"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/__re_color_view1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/line"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary" />
+        <EditText
+            android:id="@+id/__re_input1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/line"
+            android:layout_weight="1"
+            android:digits="0123456789AaBbCcDdEe"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:maxLength="7" />
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="@dimen/line"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center"-->
+<!--            android:focusable="true"-->
+<!--            android:focusableInTouchMode="true"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="#" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/__re_input"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="@dimen/line"-->
+<!--                android:digits="0123456789AaBbCcDdEe"-->
+<!--                android:gravity="center"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="text"-->
+<!--                android:maxLength="6" />-->
+
+<!--        </LinearLayout>-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

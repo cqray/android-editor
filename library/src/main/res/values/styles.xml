@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="__HintAppearance">
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textColor">@color/tint</item>
+    </style>
+
+    <style name="__TextAppearance">
+        <item name="android:textSize">@dimen/body</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="activeColor" format="color" />
+    <attr name="menuColor" format="color" />
+
+    <declare-styleable name="EditorMenuBar">
+        <attr name="activeColor"/>
+        <attr name="menuColor"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="EditorMenuView">
+
+        <attr name="activeColor"/>
+        <attr name="menuColor"/>
+
+        <attr name="command">
+            <enum name="undo" value="1" />
+            <enum name="redo" value="2" />
+            <enum name="bold" value="3" />
+            <enum name="italic" value="4" />
+            <enum name="underline" value="5" />
+            <enum name="strikethrough" value="6" />
+            <enum name="subscript" value="7" />
+            <enum name="superscript" value="8" />
+            <enum name="fontSize" value="9" />
+            <enum name="fontColors" value="10" />
+            <enum name="fontForeColor" value="11" />
+            <enum name="fontBackColor" value="12" />
+            <enum name="lineHeight" value="13" />
+            <enum name="formatClear" value="14" />
+            <enum name="formatPara" value="15" />
+            <enum name="formatH1" value="16" />
+            <enum name="formatH2" value="17" />
+            <enum name="formatH3" value="18" />
+            <enum name="formatH4" value="19" />
+            <enum name="formatH5" value="20" />
+            <enum name="formatH6" value="21" />
+            <enum name="justifyLeft" value="22" />
+            <enum name="justifyCenter" value="23" />
+            <enum name="justifyRight" value="24" />
+            <enum name="justifyFull" value="25" />
+            <enum name="ordered" value="26" />
+            <enum name="unordered" value="27" />
+            <enum name="indent" value="28" />
+            <enum name="outdent" value="29" />
+            <enum name="image" value="30" />
+            <enum name="link" value="31" />
+            <enum name="table" value="32" />
+            <enum name="divider" value="33" />
+            <enum name="blockQuote" value="34" />
+            <enum name="blockCode" value="35" />
+            <enum name="codeView" value="36" /> />
+        </attr>
+    </declare-styleable>
+</resources>

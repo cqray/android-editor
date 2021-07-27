@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__re_title_table">插入表格</string>
+    <string name="__re_title_link">插入链接</string>
+    <string name="__re_title_font">字体大小</string>
+    <string name="__re_title_line_height">行高</string>
+    <string name="__re_title_font_color">文字颜色</string>
+    <string name="__re_title_custom_color">自定义颜色</string>
+
+    <string name="__re_link_name">链接名</string>
+    <string name="__re_link_url">链接地址</string>
+    <string name="__re_table_cols">列数</string>
+    <string name="__re_table_rows">行数</string>
+
+    <string name="__re_fore_color">文字颜色</string>
+    <string name="__re_back_color">背景颜色</string>
+    <string name="__re_submit">确定</string>
+    <string name="__re_custom">自定义</string>
+    <string name="__re_not_empty">不能为空</string>
+</resources>

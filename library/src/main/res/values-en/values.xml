@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="__re_title_table">insert table</string>
+    <string name="__re_title_link">insert link</string>
+    <string name="__re_title_font">font size</string>
+    <string name="__re_title_line_height">line height</string>
+    <string name="__re_title_font_color">font color</string>
+    <string name="__re_title_custom_color">custom color</string>
+
+    <string name="__re_link_name">link name</string>
+    <string name="__re_link_url">link url</string>
+    <string name="__re_table_cols">cols</string>
+    <string name="__re_table_rows">rows</string>
+
+    <string name="__re_fore_color">fore color</string>
+    <string name="__re_back_color">back color</string>
+    <string name="__re_submit">submit</string>
+    <string name="__re_custom">custom</string>
+    <string name="__re_not_empty">can not be empty</string>
+</resources>
