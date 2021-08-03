@@ -44,6 +44,8 @@ public class RichEditor extends WebView {
     protected void initEditor() {
         mPickStrategy = EditorPickStrategy.newBuilder().build();
         mEditorController.bindEditorView(this);
+        setFocusable(true);
+        setFocusableInTouchMode(true);
         setWebViewClient(new WebViewClient() {
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
